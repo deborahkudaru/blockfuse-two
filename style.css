@@ -1,0 +1,121 @@
+body{
+  background-image: url("rinck-content-studio-RTdRHgyGiiw-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: black;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+input{
+  margin: 10px;
+  padding: 10px 35px;
+  border: none;
+  outline: none;
+  background-color:  rgb(252, 198, 208);
+  border-bottom: 1px solid;
+  font-family: 'Montserrat', sans-serif;
+}
+
+div{
+  background-color:  rgb(252, 198, 208);
+  width: 20%;
+  margin: auto;
+  margin-top: 30px;
+  padding: 50px;
+  border-radius: 5px;
+  box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+label{
+  padding-right: 20%;
+  font-weight: bold;
+}
+
+
+
+.login{
+  background-color: rgb(247, 105, 183);
+  padding: 5px 100px;
+  border-radius: 100px;
+  margin-top:30px;
+  font-size: large;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+
+
+.sign-up{
+  background-color:  rgb(252, 198, 208);
+  padding: 5px 90px;
+  border-radius: 100px;
+  margin-top: 2px;
+  font-size: large;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.sign-up:hover{
+  background-color:rgb(247, 105, 183);
+}
+
+label{
+  margin-right: 90px;
+}
+h1{
+  margin: 0;
+  padding-bottom: 50px;
+}
+
+
+.fa-brands{
+  color: black;
+  font-size: 25px;
+  margin: 5px;
+}
+.fa-brands:hover{
+  color: rgb(247, 105, 183);
+}
+
+.forgot{
+  padding-left: 100px;
+  text-decoration: none;
+  color: black;
+  font-size: small;
+  font-weight: bold;
+}
+
+.forgot:hover{
+  color: rgb(247, 105, 183);
+}
+
+p{
+  padding-top: 20px;
+  font-weight: bold;
+}
+.fa-facebook{
+  color: rgb(0, 71, 138);
+}
+
+.fa-twitter{
+  color: rgb(0, 183, 255);
+}
+
+.fa-google{
+  color: rgb(247, 69, 69);
+}
+
+.email-label{
+  position: relative;
+  right: 14px;
+  
+}
+
+@media (max-width: 900px){
+  div{
+    width: 70%;
+  }
+}
